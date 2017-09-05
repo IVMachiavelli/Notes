@@ -1,0 +1,52 @@
+---
+title: "Company Info"
+draft: false
+---
+
+### Company Research
+- [AllStocksLinks](http://www.allstocks.com/links)<br>
+- [712 (FR)](https://www.118712.fr/)<br>
+- [Battle of the Internet Giants](http://pennystocks.la/battle-of-internet-giants)<br>
+- [Better Business Bureau](http://www.bbb.org/)<br>
+- [Bizeurope](http://www.bizeurope.com/)<br>
+- [Biznar](http://biznar.com/biznar/desktop/en/lightblue/search.html)<br>
+- [Bloomberg](http://www.bloomberg.com/research/company/overview/overview.asp)<br>
+- [Business Source](https://www.ebscohost.com/academic/business-source-complete)<br>
+- [Canadian Business Research](https://www.canada.ca/en/services/business/research.html)<br>
+- [Canadian Business Resource](http://www.cbr.ca/)<br>
+- [Central and Eastern European Business Directory](http://www.ceebd.co.uk/ceebd)<br>
+- [Company Registration Round the World](http://www.commercial-register.sg.ch/home/worldwide.html)<br>
+- [Company Research Resources by Country Comparably](https://www.comparably.com/)<br>
+- [Corporate Information](http://www.corporateinformation.com/)<br>
+- [CrunchBase](https://www.crunchbase.com/)<br>
+- [EDGAR Online](http://www.edgar-online.com/)<br>
+- [Europages](http://www.europages.co.uk/)<br>
+- [European Business Register](http://www.ebr.org/)<br>
+- [Ezilon](http://www.ezilon.com/)<br>
+- [FindtheCompany](http://www.findthecompany.com/)<br>
+- [Glassdoor](https://www.glassdoor.com/)<br>
+- [Global Business Register](http://www.globalbusinessregister.com/)<br>
+- [globalEdge](http://globaledge.msu.edu/)<br>
+- [GuideStar](http://www.guidestar.org/)<br>
+- [Hoovers](http://www.hoovers.com/)<br>
+- [Inc. 5000](http://www.inc.com/inc5000)<br>
+- [InstantLogoSearch](http://instantlogosearch.com/)<br>
+- [Linkedin](https://www.linkedin.com/)<br>
+- [National Company Registers](https://en.wikipedia.org/wiki/List_of_company_registers)<br>
+- [MarketVisual](http://www.marketvisual.com/)<br>
+- [Mergent Online](http://www.mergentonline.com/login.php)<br>
+- [Morningstar Research](http://library.morningstar.com/)<br>
+- [Orbis directory](http://orbisdirectory.bvdinfo.com/version-20161014/OrbisDirectory/Companies)<br>
+- [opencorporates](https://opencorporates.com/)<br>
+- [Owler](https://www.owler.com/)<br>
+- [Plunkett Research](http://www.plunkettresearchonline.com/)<br>
+- [Scoot](http://www.scoot.co.uk/)<br>
+- [SEMrush](https://www.semrush.com/)<br>
+- [Serpstat](https://serpstat.com/)<br>
+- [SpyFu](http://www.spyfu.com/)<br>
+- [Copy Scrape](http://www.copyscape.com/)<br>
+- [Tradezone Europages](http://www.tradezone.com/europages.php)<br>
+- [Vault](http://www.vault.com/)<br>
+- [Internet Marketing Ninjas](https://www.internetmarketingninjas.com)<br>
+- [Xing](http://www.xing.com/)<br>
+- [Site Liner](http://www.siteliner.com/)<br>

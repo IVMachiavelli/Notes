@@ -1,0 +1,41 @@
+---
+title: "Translating"
+draft: false
+---
+- [2lingual](http://www.2lingual.com/)<br>
+- [Apertium](https://www.apertium.org/)<br>
+- [Babelfish](https://www.babelfish.com/)<br>
+- [Bablic](https://www.bablic.com/)<br>
+- [Babylon](http://translation.babylon.com/)<br>
+- [Bing Translator](http://www.bing.com/translator)<br>
+- [Dict.cn](http://dict.cn/)<br>
+- [Dictionary.com: Translation](http://translate.reference.com/)<br>
+- [FreeTranslation](http://www.freetranslation.com/)<br>
+- [Free Translator](http://www.free-translator.com/)<br>
+- [Free Website Translation](http://free-website-translation.com/)<br>
+- [Frengly](http://frengly.com/)<br>
+- [Google Input Tools](https://www.google.com/inputtools/try)<br>
+- [Google Translate](https://translate.google.com/)<br>
+- [IdiomaX Translation](http://www.idiomax.com/online-translator.aspx)<br>
+- [India Typing](http://indiatyping.com/index.php/translations/english-to-hindi-translation)<br>
+- [imTranslator](http://imtranslator.net/translation)<br>
+- [iTranslate](http://www.itranslateapp.com/)<br>
+- [iTranslate Voice](http://itranslatevoice.com/)<br>
+- [Lexicool Translation](http://www.lexicool.com/translate.asp)<br>
+- [Linguee](http://www.linguee.com/)<br>
+- [LingvoSoftOnline](http://www.lingvozone.com/)<br>
+- [Microsoft Translator](http://www.microsoft.com/en-us/translator)<br>
+- [Noslang](http://www.noslang.com/)<br>
+- [OdysseyTranslator](http://odysseytranslator.com/)<br>
+- [Pleco](https://www.pleco.com/)<br>
+- [PROMT-Online](http://translation2.paralink.com/)<br>
+- [Reddit/r/translator](https://www.reddit.com/r/translator)<br>
+- [Reverso](http://www.reverso.net/)<br>
+- [Slangit](http://slangit.com/)<br>
+- [Systran](http://www.systransoft.com/)<br>
+- [Translate.com](https://www.translate.com/)<br>
+- [Unbabel](https://unbabel.com/)<br>
+- [WorldLingo](http://www.worldlingo.com/)<br>
+- [WorldReference.com](http://www.wordreference.com/)<br>
+- [Yamli (Arabic Search Engine)](http://www.yamli.com/)<br>
+- [Yandex Translate](https://translate.yandex.ru/)<br>
