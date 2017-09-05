@@ -1,3 +1,3 @@
 +++
-title = "Golang"
+title = "Basic Go"
 +++
