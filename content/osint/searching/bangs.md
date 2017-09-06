@@ -10,6 +10,7 @@ draft: false
 
 {{% panel="Google" header="Google" theme="default" %}}
 ```text
+Google
 !g site:[domain]
 !g link:[domain]
 !g related:[domain]
@@ -19,7 +20,7 @@ draft: false
 !g weather:[location]
 !g loc:[location]
 !g stocks:[keyword]
-!g filetype:[.filetype]
+!g filetype:[.filetype] or ext:[.filetype]
 !g daterange:[2457250]
 !g allinlinks:[keyword]
 !g allintext:[keyword]
@@ -141,11 +142,12 @@ Wiki Options
 
 {{% panel="Startpage" header="Startpage" theme="default" %}}
 ```text
-    !sp +[keyword]   (must)
-    !sp -[keyword]   (none)
+    General Search
+    !sp +[keyword]   (include)
+    !sp -[keyword]   (not)
     !sp "[keyword]"  (exact)
 
-    domain/title
+    Advanced Options
     !sp title:"[keyword]"
     !sp url:"[domain]"
     !sp host:[domain]
