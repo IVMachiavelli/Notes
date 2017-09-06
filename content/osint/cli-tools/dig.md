@@ -2,16 +2,6 @@
 title: "Dig"
 draft: false
 ---
-|    Options    |           Description               |
-| ------------- |:-----------------------------------:|
-| +nocomments   | No comments                         |
-| +noauthority  | No authority                        |
-| +noadditional | No additional information           |
-| +nostats      | No stats                            |
-| +noanswer     | No answer                           |
-
-<br>
-
 {{% panel="Dig All Options" header="Dig All Options" theme="default" %}}
 ```bash
 dig wired.com

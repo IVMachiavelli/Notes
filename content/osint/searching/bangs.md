@@ -138,3 +138,19 @@ Wiki Options
     !r flair_css_class:[keyword]
 ```
 {{% /panel %}}
+
+{{% panel="Startpage" header="Startpage" theme="default" %}}
+```text
+    !sp +[keyword]   (must)
+    !sp -[keyword]   (none)
+    !sp "[keyword]"  (exact)
+
+    domain/title
+    !sp title:"[keyword]"
+    !sp url:"[domain]"
+    !sp host:[domain]
+    !sp link:[domain] 
+    !sp domain:[TLD]
+    !sp filetype:[extension]
+```
+{{% /panel %}}
