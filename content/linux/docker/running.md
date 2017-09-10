@@ -29,7 +29,7 @@ docker run -d debian
 
 Source: https://docs.docker.com/engine/reference/commandline/attach/#override-the-detach-sequence1
 {{% panel="Docker Run" header="Attach to container" theme="default" %}} 
-Attach to a running container, running in detached mode. 
+Attach to a detached container. 
 ```bash
 docker attach debian
 ```
