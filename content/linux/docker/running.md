@@ -25,6 +25,10 @@ Running the container in the background known as ```--detach``` mode.
 ```bash
 docker run -d debian
 ```
+or 
+```bash
+docker run --detach debian
+```
 {{% /panel %}}
 
 Source: https://docs.docker.com/engine/reference/commandline/attach/#override-the-detach-sequence1
