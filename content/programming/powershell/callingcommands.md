@@ -105,3 +105,4 @@ Split-Path -Path $HOME -Leaf
 
 mkdir -p $HOME/oscon2017test
 ```
+{{% /panel %}}
