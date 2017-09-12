@@ -1,9 +1,10 @@
 ---
-title: "Getting Help"
+title: "Get-Help"
 draft: false
+weight: 1
 ---
 
-Source:
+Source: https://github.com/pcgeek86/oscon-2017
 {{% panel="Get-Help" header="Get-Help" theme="default" %}}
 ```powershell
 # PowerShell Help pages are similar to man pages, but offer a richer experience.
@@ -21,7 +22,6 @@ Get-Help -Category Provider -Name Alias
 # By default, you're shown consolidated help for PowerShell commands
 
 Get-Help -Name Start-Process
-
 ```
 ```powershell
 # If you want a specific section of help, you can specify it:
