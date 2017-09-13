@@ -6,7 +6,6 @@ draft: false
 Source: https://github.com/pcgeek86/oscon-2017
 {{% panel="Strings" header="Strings" theme="default" %}}
 
-
 In PowerShell, there are a couple different ways of defining strings.
 
 'Single-quoted strings can contain double quotes "like this"'
