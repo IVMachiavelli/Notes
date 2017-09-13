@@ -70,3 +70,5 @@ Once you've defined a ScriptBlock, there are a few ways of calling it.
 
 $PowerShellScript.Invoke()
 ```
+
+{{% /panel %}}
