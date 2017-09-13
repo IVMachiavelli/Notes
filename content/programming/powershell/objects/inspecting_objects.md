@@ -47,6 +47,7 @@ Get-Process | Select-Object -Property *name*
 
 ```powershell
 # The object's type information is an object itself, so you can extrapolate on that.
+
 (Get-ChildItem -Path /var)[0].GetType() | Select-Object -Property *
 ```
 
@@ -60,6 +61,7 @@ Get-Process | Select-Object -Property *name*
 # By using the .NET RuntimeType metadata, you can dive deep into an object's structure. You can do things like examine methods, properties, events, constructors, attributes, and more
 
 # For example, let's take a look at the constructors for a DirectoryInfo object
+
 (Get-ChildItem -Path /var)[0].GetType().GetConstructors()
 ```
 {{% /panel %}}
