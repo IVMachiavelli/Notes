@@ -1,5 +1,5 @@
 ---
-title: "Inspecting_objects"
+title: "Inspecting Objects"
 draft: false
 ---
 
@@ -15,11 +15,15 @@ One of the great things about PowerShell is the ability to discover things that 
 Get-Process | Get-Member
 ```
 
+------------
+
 ```powershell
 # If you only care about properties or methods, you can limit the output from Get-Member, using the -MemberType parameter.
 
 Get-Process | Get-Member -MemberType Method
 ```
+
+------------
 
 ```powershell
 # Notice how we get back a couple different types of properties: "ScriptProperties" and "Property" The "ScriptProperty" items are added onto the core .NET object by the PowerShell adaptive type system. They're not available in a C# program that's using the same type.
@@ -27,11 +31,15 @@ Get-Process | Get-Member -MemberType Method
 Get-Process | Get-Member -MemberType Properties
 ```
 
+------------
+
 ```powershell
 # Use the Select-Object command to limit output to properties you care about
 
 Get-Process | Select-Object -Property *name*
 ```
+
+------------
 
 ```powershell
 # Use the Select-Object command to select unique objects in the pipeline
@@ -39,11 +47,14 @@ Get-Process | Select-Object -Property *name*
 @('Trevor', 'Trevor', 'Bill', 'Aaron') | Select-Object -Unique
 ```
 
+------------
+
 ```powershell
 # You can use the .GetType() method on any .NET object to find out what its underlying type is
 
 (Get-ChildItem -Path /var)[0].GetType()
 ```
+------------
 
 ```powershell
 # The object's type information is an object itself, so you can extrapolate on that.
@@ -51,11 +62,15 @@ Get-Process | Select-Object -Property *name*
 (Get-ChildItem -Path /var)[0].GetType() | Select-Object -Property *
 ```
 
+------------
+
 ```powershell
 # Reflect over the RuntimeType properties and methods
 
 (Get-ChildItem -Path /var)[0].GetType() | Get-Member
 ```
+
+------------
 
 ```powershell
 # By using the .NET RuntimeType metadata, you can dive deep into an object's structure. You can do things like examine methods, properties, events, constructors, attributes, and more

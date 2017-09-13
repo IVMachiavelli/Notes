@@ -14,6 +14,8 @@ PowerShell commands are, by convention, named using the Verb-Noun syntax.
 
 Get-Command
 ```
+------------
+
 ```powershell
 # Retrieve a command by its name.
 # NOTE: If there are ambiguous command names, more than one object may be returned.
@@ -22,17 +24,22 @@ Get-Command
 Get-Command -Name Select-Object
 ```
 
+------------
+
 ```powershell
 # Retrieve all commands that start with "select."
 
 Get-Command -Name Select*
 ```
 
+------------
+
 ```powershell
 # Retrieve all commands from a particular module
 
 Get-Command -Module Microsoft.PowerShell.Host
 ```
+------------
 
 - There are different types of commands available:
     - Cmdlets - Compiled .NET assemblies containing PowerShell commands
@@ -41,16 +48,20 @@ Get-Command -Module Microsoft.PowerShell.Host
     - Application - Native applications (ifconfig, bash, powershell, etc.)
     - Configuration - DSC configuration documents
 
+
 ```powershell
 # Get alias commands
 
 Get-Command -CommandType Alias
 ```
+------------
+
 ```powershell
 # Get native (non-PowerShell) commands matching a particular name
 
 Get-Command -CommandType Application -Name *config*
-````
+```
+------------
 
 ```powershell
 # You can get commands from a specific module version, using a ModuleSpecification object
