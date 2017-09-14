@@ -1,22 +1,27 @@
 ---
 title: "Files"
-date: 2017-09-14T05:44:19-04:00
-draft: true
+draft: false
 ---
 
 
 Source: https://github.com/pcgeek86/oscon-2017
 {{% panel="Working with Files" header="Working with Files" theme="default" %}}
 
-# PowerShell provides a series of standard commands that allow you to read from and write to files.
+PowerShell provides a series of standard commands that allow you to read from and write to files.
 
+```powershell
 # Get the file contents of yourself (the script you're running).
+
 $Me = Get-Content -Path $MyInvocation.MyCommand.Path
 $Me.Count
+```
 
+```powershell
 # Get the file contents as a single string, using the -Raw parameter
+
 $Me = Get-Content -Path $MyInvocation.MyCommand.Path -Raw
 $Me.Count
+```
 
 ```powershell
 # Write some text to a file
