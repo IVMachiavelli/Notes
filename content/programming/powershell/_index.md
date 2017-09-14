@@ -1,3 +1,3 @@
 +++
-title = "Basic Powershell"
+title = " Powershell"
 +++
