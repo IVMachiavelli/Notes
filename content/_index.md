@@ -3,4 +3,4 @@ title = "Home"
 +++
 
 <h1>Cheat Sheet</h1>
-This site is to serve as a cheat sheet for anyone conducting a **Open Source Investigation**.
+This ***Cheat Sheet*** serves as a quick reference while conducting investigations and is not intended to be any replacement for detailed documentation.  
