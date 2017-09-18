@@ -8,7 +8,7 @@ Source: https://github.com/pcgeek86/oscon-2017
 
 In PowerShell, built-in variables are called "automatic" variables.
 
-```powershell 
+```powershell
 # List all variables in the current PowerShell session
 
 Get-Variable
@@ -24,8 +24,7 @@ $PSVersionTable
 ------------
 
 ```powershell
-# The host variable contains information about the .NET process that
-# is hosting the PowerShell Engine.
+# The host variable contains information about the .NET process that is hosting the PowerShell Engine.
 
 $Host
 ```
@@ -41,9 +40,7 @@ $env:HOME
 ------------
 
 ```powershell
-# The special $PSDefaultParameterValues command enables you to set default
-# parameters to reduce typing. Be careful with this though, as it can cause
-# unpredictable behavior if you're not aware of it.
+# The special $PSDefaultParameterValues command enables you to set default parameters to reduce typing. Be careful with this though, as it can cause unpredictable behavior if you're not aware of it.
 
 $PSDefaultParameterValues = @{
   'Write-Host:ForegroundColor' = 'Green'
