@@ -8,15 +8,26 @@ weight: 2
 I will be using the debian container as an example to continue from the docker pull examples.
 {{%/notice%}}
 
-Source:https://docs.docker.com/engine/reference/commandline/run/#options
 {{% panel="Docker Run" header="Docker Run in interactive mode" theme="default" %}}
-Running a container in interactive mode(TTY) 
 ```bash
+# Run a container in interactive mode(tty) 
 docker run -it debian
-```
 OR
-```bash
 docker run debian /bin/bash
+
+# Common options
+-v Mount a volume to a container
+-t Attach a pseudo-tty to a container
+-i Make container interactive (stdin open)
+-m Constrain memory for a container
+-c Increase containers CPU priority
+--name='name' Set custom name of the container
+-e Set env variable container process sees
+--entrypoint Override containers entrypoint
+-h Set hostname within the container
+-p Map container port to a host port
+-P true Publish all contaier ports to host
+-rm Remove container when it exits
 ```
 {{% /panel %}}
 
@@ -24,19 +35,17 @@ docker run debian /bin/bash
 Running the container in the background known as ```--detach``` mode. 
 ```bash
 docker run -d debian
-```
 or 
-```bash
 docker run --detach debian
 ```
 {{% /panel %}}
 
-Source: https://docs.docker.com/engine/reference/commandline/attach/#override-the-detach-sequence1
 {{% panel="Docker Run" header="Attach to container" theme="default" %}} 
-Attach to a detached container. 
 ```bash
+# Attach to a running container
 docker attach debian
 ```
 {{% /panel %}}
 
 
+{{% panel="Docker Run" header="Docker Run in detached mode" theme="default" %}} 

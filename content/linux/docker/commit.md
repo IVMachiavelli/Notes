@@ -3,36 +3,31 @@ title: "Commit"
 draft: false
 ---
 
-Source:https://docs.docker.com/engine/reference/commandline/commit/#description
-{{% panel="Docker Commit" header="Docker Commit" theme="default" %}}
-In this example we will run a Debian container, make some changes, then commit those changes.
+{{% panel="Commit" header="Commit" theme="default" %}}
 ```bash
-# Run a debian container.
-docker run -it debian /bin/bash
+# Commit container
+#              <Commit Message>      <Commit Author> <Container ID><New Name> 
+docker commit -m="This is a message" -a="Author Name" 196e0ce0c9fb crazy_image
 ```
-```bash
-# Update and install git
-apt update && apt install git
-```
+{{% /panel %}}
 
+{{% panel="Save" header="Save" theme="default" %}}
 ```bash
-# exit the container, container will continue to run in the background
-exit
+# docker save as .tar file
+#              <name .tar file><commited image>  
+docker save -o crazy_image.tar crazy_image
 ```
+{{% /panel %}}
 
+{{% panel="Exporting & Loading" header="Exporting & Loading on remote system" theme="default" %}}
 ```bash
-# Check running containers.
-docker ps -a
-```
+# Export the saved .tar file to another system for use.
+scp crazy_image.tar 
 
-```bash
-# Check what changes have been made.
-docker diff d67bc5094d42
-```
+# Now on remote system load the .tar file using docker
+docker load -i ~/Projects/crazy_image.tar
 
-```bash
-# Commit the changes to a new container ready to be pushed.
-# docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
-docker commit d67bc5094d42 ivmachiavelli/debian_git:1.0
+# You can now run the container on the remote machine
+docker run -it crazy_image
 ```
 {{% /panel %}}
