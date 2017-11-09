@@ -8,7 +8,7 @@ Todo Reminders
     - Golang
     - Bash
 - Linux
-    - Everything and everything
+    - Anything and everything
 - OSINT Tools
     - Add OSINT videos
  - OSINT Links
