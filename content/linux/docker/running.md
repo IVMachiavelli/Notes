@@ -10,7 +10,7 @@ I will be using the debian container as an example to continue from the docker p
 
 {{% panel="Docker Run" header="Docker Run in interactive mode" theme="default" %}}
 ```bash
-# Run a container in interactive mode(tty) 
+# Run a container in interactive mode(tty)
 docker run -it debian
 OR
 docker run debian /bin/bash
@@ -31,21 +31,32 @@ docker run debian /bin/bash
 ```
 {{% /panel %}}
 
-{{% panel="Docker Run" header="Docker Run in detached mode" theme="default" %}} 
-Running the container in the background known as ```--detach``` mode. 
+{{% panel="Docker Run" header="Mapping ports" theme="default" %}}
+```bash
+# The first port is the host, the second is the container
+docker run -p 80:80 debian
+# http://localhost:80
+```
+```bash
+# Another example mapping a host port to a container port
+docker run -p 9119:80 debian
+# http://localhost:9119/
+```
+
+{{% /panel %}}
+
+{{% panel="Docker Run" header="Docker Run in detached mode" theme="default" %}}
+Running the container in the background known as ```--detach``` mode.
 ```bash
 docker run -d debian
-or 
+or
 docker run --detach debian
 ```
 {{% /panel %}}
 
-{{% panel="Docker Run" header="Attach to container" theme="default" %}} 
+{{% panel="Docker Run" header="Attach to container" theme="default" %}}
 ```bash
 # Attach to a running container
 docker attach debian
 ```
 {{% /panel %}}
-
-
-{{% panel="Docker Run" header="Docker Run in detached mode" theme="default" %}} 
