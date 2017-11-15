@@ -1,5 +1,5 @@
 # Notes
-After a horrible event destroyed my beloved technical notes I vowed to never let it happen again. Please feel free to use these notes for your own purposes and please commit any additions and/or corrections.
+After a horrible event destroyed my beloved technical notes, I vowed to never let it happen again. Please feel free to use these notes for your own purposes and please commit any additions and/or corrections.
 
 This static site was generated using [Hugo](gohugo.io)
 
