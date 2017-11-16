@@ -21,6 +21,8 @@ hugo server
 ```
 - Now in your browser navigate to localhost:1313
 
+
+--------------
 Todo Reminders
 --------------
 - Add Scripting References

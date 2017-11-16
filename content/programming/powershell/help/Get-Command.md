@@ -18,13 +18,12 @@ Get-Command
 
 ```powershell
 # Retrieve a command by its name.
+# NOTE: If there are ambiguous command names, more than one object may be returned.
+#       For example, two different modules could expose a duplicate command name.
 
 Get-Command -Name Select-Object
 ```
-{{% notice note %}}
-NOTE: If there are ambiguous command names, more than one object may be returned.
-For example, two different modules could expose a duplicate command name.
-{{% /notice %}}
+
 ------------
 
 ```powershell
