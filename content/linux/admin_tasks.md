@@ -10,5 +10,5 @@ draft: false
 - Permission management
 - Service management
 - Software management
-- Log monitor
+- Log monitoring
 
