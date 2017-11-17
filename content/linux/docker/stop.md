@@ -18,3 +18,12 @@ docker start zen_kare
 docker stop debain
 ```
 {{% /panel %}}
+
+
+{{% panel="Attaching to a container as root" header="Attaching to a container as root" theme="default" %}}
+```bash
+# Connect to a running container as root user.
+# User flag -u and 0 (0 is always root)
+docker exec -u 0 -it zen_kare /bin/bash
+```
+{{% /panel %}}
