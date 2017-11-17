@@ -1,5 +1,5 @@
 # Notes
-After a horrible event destroyed my beloved technical notes, I vowed to never let it happen again. Please feel free to use these notes for your own purposes and please commit any additions and/or corrections.
+After a horrible event destroyed my beloved technical notes, I vowed to never let it happen again. Please feel free to use these notes for your own purposes and please commit any additions and/or corrections. These Notes will always be in a incomplete manner and serve me as a quick reference and should not be considered a replacement for offical documentation.
 
 This static site was generated using [Hugo](gohugo.io)
 
@@ -19,8 +19,12 @@ git clone https://github.com/IVMachiavelli/Notes.git
 ```bash
 hugo server
 ```
-- Now in your browser navigate to localhost:1313
-
+- Now in your browser navigate to localhost:1313 (port 1313 is Hugo's default)
+- If that doesn't work try setting the port with the -p flag
+```bash
+# Example: setting the port number
+hugo server -p 9631
+```
 
 --------------
 Todo Reminders
