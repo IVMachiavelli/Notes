@@ -30,3 +30,7 @@ docker inspect --format='{{.State.Pid}}' debian
 nsenter -m -u -n -i -p -t 1841
 ```
 {{% /panel %}}
+
+```bash
+docker image inspect -f {{.Config.Labels}} <IMAGE ID>
+```
