@@ -12,9 +12,17 @@ go run main.go
 {{% /panel %}}
 
 {{% panel="Compiled Executable" header="Compiled Executable" theme="default" %}}
+Using the go build command will create an executable file the same name as your go file.
 ```bash
-# To generate a executable file use the go build command
+# To generate a executable file use the go build.
 go build scanner.go
+# This will create a file called scanner
+```
+```bash
+# Check executable with file
 file scanner
+
+# Check file size
+ls -l scanner
 ```
 {{% /panel %}}

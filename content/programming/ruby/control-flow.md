@@ -128,6 +128,15 @@ unless => 15
 end
 ```
 ```ruby
+if tweets.empty?
+    puts "No tweets found - Better follow some people"
+else
+    puts "Timeline:"
+    puts tweets
+end
+```
+
+```ruby
 # else statement
 things = 10
 if things < 25
@@ -177,5 +186,17 @@ color = case fruit
     else
     "unknown"
 end
+```
+
+```ruby
+# Conditional return value
+def list_url(user_name, list_name)
+    if list_name
+        "https://twitter.com/#{user_name}/#{list_name}"
+    else
+        "https://twitter.com/#{user_name}"
+    end
+end
+
 ```
 {{% /panel %}}

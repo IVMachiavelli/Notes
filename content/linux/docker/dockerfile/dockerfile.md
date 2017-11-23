@@ -26,7 +26,6 @@ draft: false
 - STOPSIGNAL sets the system call signal that will be sent to the container to exit.
 - LABEL apply key/value metadata to your images, containers, or daemons.
 
-
 {{% panel="FROM" header="FROM" theme="default" %}}
 ```bash
 FROM debian:latest
@@ -49,7 +48,7 @@ RUN apt-get update && apt-get upgrade -y
 {{% /panel %}}
 
 {{% panel="EXPOSE" header="EXPOSE" theme="default" %}}
-```bash
+``` bash
 ```
 {{% /panel %}}
 
